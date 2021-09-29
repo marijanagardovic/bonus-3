@@ -6,6 +6,7 @@
     --blue: hsl(248, 32%, 49%);
     --dark-blue: hsl(249, 10%, 26%);
     --grayish-blue: hsl(246, 25%, 77%);
+    --border-color: #DEDEDE;
     --white-color: #fff;
     --font-size: 16px;
 }
@@ -74,5 +75,52 @@ h1 {
 }
 
 .sign-up {
-    
+    background-color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 35px;
+    width: 85%;
 }
+
+.sign-up div {
+    display: flex;
+    flex-direction: column;
+}
+
+input, button {
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    padding: 15px 25px;
+    font-weight: 600;
+}
+
+button {
+    color: var(--white-color);
+    background-color: var(--green);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+
+.terms-and-services {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 26px;
+    color: var(--grayish-blue);
+    text-align: center;
+}
+
+.terms-and-services a {
+    color: var(--red);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+button:focus, input:focus {
+    outline: none;
+}
+
