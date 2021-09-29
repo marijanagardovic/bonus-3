@@ -124,3 +124,41 @@ button:focus, input:focus {
     outline: none;
 }
 
+@media (max-width: 960px) {
+    main {
+        flex-direction: column;
+        background: url(images/bg-intro-mobile.png);
+        background-color: var(--red);
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .free-trial {
+        margin-top: 1rem;
+    }
+    
+    .title p {
+        text-align: center;
+    }
+
+    .title h1 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    main {
+        width: 100%;
+        padding: 0px 10px;
+    }
+    
+    .title {
+        padding: 0;
+    }
+}
