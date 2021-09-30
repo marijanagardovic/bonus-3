@@ -124,6 +124,33 @@ button:focus, input:focus {
     outline: none;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
+/*ERROR MESSAGE*/
+
+.error-message {
+	text-align: right;
+	font-size: 0.8rem;
+	font-style: italic;
+	color: var(--red);
+	font-weight: 500;
+    display: none;
+    padding: 0.2rem;
+}
+
+.field-group.error .error-message {
+	display: block;
+}
+
+.field-group.error input {
+	border: 2px solid var(--red);
+    background: url("images/icon-error.svg");
+    background-repeat: no-repeat;
+    background-position: 90% center; 
+}
+
 @media (max-width: 960px) {
     main {
         flex-direction: column;
