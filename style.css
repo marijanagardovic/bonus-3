@@ -39,6 +39,10 @@ main {
     padding: 0px 160px;
 }
 
+.container {
+   max-width: 100wh;
+}
+
 .title {
     color: var(--white-color);
     padding-right: 30px;
