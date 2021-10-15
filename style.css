@@ -71,6 +71,7 @@ h1 {
     padding: 15px 20px;
     border-radius: 10px;
     margin-bottom: 1.5rem;
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
 }
 
 .free-trial span {
@@ -85,6 +86,7 @@ h1 {
     border-radius: 10px;
     padding: 35px;
     width: 85%;
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
 }
 
 .sign-up div {
